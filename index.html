@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta de la Antioqueñidad INEM 2025 - La Pintada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="main-title">FIESTA DE LA ANTIOQUEÑIDAD INEM 2025</h1>
+            <h2 class="main-subtitle">MUNICIPIO DE LA PINTADA</h2>
+            <p class="welcome-text">Bienvenidos</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <button class="nav-toggle" aria-label="abrir navegación">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="#inicio">Inicio</a></li>
+            <li class="nav-menu-item"><a href="#ubicacion">Ubicación</a></li>
+            <li class="nav-menu-item"><a href="#cultura">Cultura</a></li>
+            <li class="nav-menu-item"><a href="#turismo">Turismo</a></li>
+            <li class="nav-menu-item"><a href="#galeria">Galería</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio" class="container">
+            <h3 class="section-title">Corazón del Suroeste Antioqueño</h3>
+            <p>La Fiesta de la Antioqueñidad es una celebración de nuestras raíces, costumbres y la pujanza que caracteriza a nuestro pueblo. En este marco, La Pintada se enorgullece de representar la riqueza cultural del Suroeste, una subregión de paisajes cafeteros, gente amable y tradiciones arraigadas. Este espacio es una ventana a la historia, la vida y los tesoros que nuestro municipio ofrece a Antioquia y al mundo.</p>
+        </section>
+
+        <section id="ubicacion" class="container">
+            <h3 class="section-title">Ubicación geográfica</h3>
+            <figure>
+                <img src="imagenes/ubicacion pintada.png" alt="Mapa de ubicación de La Pintada en Antioquia" class="responsive-img">
+            </figure>
+            <p>La Pintada goza de una ubicación privilegiada a orillas del imponente río Cauca. Situado a solo 105 km de Medellín, nuestro municipio no solo es un destino turístico cercano para la capital, sino también un punto de conexión estratégico entre Antioquia y el Eje Cafetero. Esta posición lo convierte en un cruce de caminos, culturas y oportunidades.</p>
+        </section>
+
+        <section id="cultura" class="container">
+            <h3 class="section-title">Demografía y Cultura</h3>
+            <p>Con una población aproximada de 8,000 habitantes, La Pintada es un municipio joven, fundado como corregimiento en 1850 y erigido municipio en 1997. Nuestra cultura está marcada por la alegría de las ferias y fiestas, como las Fiestas del Turismo y la Ganadería. La gastronomía local deleita con platos como el sancocho de pescado y la bandeja paisa. La música parrandera es la banda sonora de nuestras celebraciones, y el río Cauca no es solo un recurso, sino el eje de la vida social y económica de nuestra comunidad.</p>
+        </section>
+
+        <section id="turismo" class="container">
+            <h3 class="section-title">Tesoros por Descubrir</h3>
+            <div class="card-container">
+                 <div class="card">
+                    <img src="imagenes/puente.jpg" alt="Puente Viejo de La Pintada">
+                    <h4>Puente Viejo</h4>
+                    <p>Una joya arquitectónica y testigo de la historia, esta estructura metálica que cruza el río Cauca es un ícono de nuestro municipio.</p>
+                </div>
+                <div class="card">
+                    <img src="imagenes/Balneario.jpg" alt="Balneario La Oculta">
+                    <h4>Balneario La Oculta</h4>
+                    <p>Un refugio natural de aguas cristalinas, perfecto para el descanso, la recreación familiar y el contacto con la naturaleza.</p>
+                </div>
+                
+                 <div class="card">
+                    <img src="imagenes/rio cauca.jpg" alt="Río Cauca">
+                    <h4>Río Cauca</h4>
+                    <p>El alma del municipio. Ofrece espacios para la pesca, deportes acuáticos y el disfrute de hermosos paisajes ribereños.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="container">
+            <h3 class="section-title">Galería Visual</h3>
+            <div class="carousel">
+                <button class="carousel__button carousel__button--left is-hidden">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/chevron-left.png" alt="Anterior">
+                </button>
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide"><img class="carousel__image" src="imagenes/paisaje1.jfif" alt="Paisaje de La Pintada"></li>
+                        <li class="carousel__slide"><img class="carousel__image" src="imagenes/arquictetura.jpg" alt="Arquitectura local"></li>
+                        <li class="carousel__slide"><img class="carousel__image" src="imagenes/rio.jpg" alt="Río Cauca"></li>
+                        <li class="carousel__slide"><img class="carousel__image" src="imagenes/cultura.jpg" alt="Evento cultural"></li>
+                        <li class="carousel__slide"><img class="carousel__image" src="imagenes/puente2.jpg" alt="Puente de La Pintada"></li>
+                        <li class="carousel__slide"><img class="carousel__image" src="imagenes/mirador.jpg" alt="Vista desde el mirador"></li>
+                    </ul>
+                </div>
+                <button class="carousel__button carousel__button--right">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/chevron-right.png" alt="Siguiente">
+                </button>
+                <div class="carousel__nav">
+                    <button class="carousel__indicator current-slide"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                    <button class="carousel__indicator"></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>Proyecto escolar - Fiesta de la Antioqueñidad INEM 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
